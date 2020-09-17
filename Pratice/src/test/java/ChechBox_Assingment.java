@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 public class ChechBox_Assingment{
 
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver","/Users/mdrahul/Documents/Udemy/Pratice/Driver/chromedriver 2");
+        System.setProperty("webdriver.chrome.driver","/Users/mdrahul/Desktop/Udemy/Pratice/Driver/chromedriver 2");
         WebDriver driver= new ChromeDriver();
         driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 

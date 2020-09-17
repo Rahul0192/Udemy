@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Functional_test {
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "/Users/mdrahul/Documents/Udemy/Pratice/Driver/chromedriver 2");
+        System.setProperty("webdriver.chrome.driver", "/Users/mdrahul/Desktop/Udemy/Pratice/Driver/chromedriver 2");
         WebDriver driver = new ChromeDriver();
         driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
        // Thread.sleep(3000);

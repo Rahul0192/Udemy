@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Window_handle_assingment4 {
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver", "/Users/mdrahul/Documents/Udemy/Pratice/Driver/chromedriver 2");
+        System.setProperty("webdriver.chrome.driver", "/Users/mdrahul/Desktop/Udemy/Pratice/Driver/chromedriver 2");
         WebDriver driver = new ChromeDriver();
         driver.get("https://the-internet.herokuapp.com/");
       driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
